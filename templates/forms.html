@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load material_form %}
+<link rel="StyleSheet" href="{% static 'css/base_css.css' %}">
+
+{% block title %}
+    Registration Form
+{% endblock title %}
+
+{% block content %}
+<form method="POST" enctype="multipart/form-data">
+    <div class="container">
+    <span class="card-title grey-text text-darken-2" style="font-size:40px"><b>Registration form</b></span>
+    {% csrf_token %}    
+    {% form %}
+        {% part form.username prefix %}<i class="material-icons prefix">account_box</i>{% endpart %}
+        {% part form.email prefix %}<i class="material-icons prefix">email</i>{% endpart %}
+        {% part form.password prefix %}<i class="material-icons prefix">lock_open</i>{% endpart %}
+    {% endform %}
+    <button type="submit" class="btn">Submit</button>
+    </div>
+</form>
+
+{% endblock content %}  

@@ -1,0 +1,49 @@
+.card .card-content .card-title {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.card .card-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.grey-text.text-darken-2 {
+    color: #616161!important;
+}
+
+.grey-text {
+    color: #9e9e9e!important;
+}
+
+*,
+ :after,
+ :before {
+    box-sizing: inherit;
+}
+
+html {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .87);
+}
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+ :after,
+ :before {
+    box-sizing: inherit;
+}
+
+*,
+ :after,
+ :before {
+    box-sizing: inherit;
+}
